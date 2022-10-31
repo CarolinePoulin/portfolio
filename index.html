@@ -13,15 +13,12 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid navbar--div">
-                <a class="navbar-brand" href="index.html" tabindex="0"><img src="img/icons/randologo70px-modified.png" alt="logo"/></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html" role="tab" tabindex="0">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" tabindex="0" aria-current="page" href="" role="tab" tabindex="0">A propos</a></li>
-                        <li class="nav-item"><a class="nav-link" tabindex="0" aria-current="page" href="" role="tab" tabindex="0">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#portfolio" role="tab" tabindex="0">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" tabindex="0" aria-current="page" href="#apropos" role="tab" tabindex="0">A propos</a></li>
+                        <li class="nav-item"><a class="nav-link" tabindex="0" aria-current="page" href="#competences" role="tab" tabindex="0">Compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" tabindex="0" aria-current="page" href="#contact" role="tab" tabindex="0">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -30,102 +27,286 @@
 
     <main>
 
-        <section class="imageFond">
-            <div class="container imageFond-div"></div>
+        <section class="imageFond first">
+            <div class="container imageFond-div">
+                <h1>Bonjour je m'appelle Caroline<br>je suis développeuse front-end junior.</h1>
+            </div>
         </section>
 
-        <section>
-            <div class="container imageTexte">
+        <section id="portfolio">
+            <div class="container portfolio">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-lg-6 imageTexte__col">
-                        <h1>Des endroits à visiter</h1>
-                        <p>Vous avez besoin de vous retrouvez dans la nature le plus souvent possible ?<br>
-                        Vous avez besoin d'atteindre le sommet ?<br>
-                        Vous êtes à la recherche de paysages à couper le souffle ?<br>
-                        Voici des idées juste pour vous.</p>
-                        <a href="endroits.html#chaudiereAppalaches"><button type="button" class="btn">Chaudière-Appalaches</button></a>
-                        <a href="endroits.html#montagneBeauce"><button type="button" class="btn">Montagne en Beauce</button></a>
+                    <h1>Portfolio</h1>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/themelisRHSolutions.jpg" class="card-img-top" alt="themelisRHSolutions">
+                            <div class="card-body">
+                                <a href="https://www.themelisRHsolutions.com" target="_blank">www.themelisRHsolutions.com</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-8 col-lg-6">
-                        <img class="imageTexte__col--img" src="img/woman-endroit.jpg" href="femme endroit">
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/eclairDeGenie.jpg" class="card-img-top" alt="eclairDeGenie">
+                            <div class="card-body">
+                                <a href="https://www.eclairdegenie.ca" target="_blank">www.eclairdegenie.ca</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="container imageTexte">
-                <div class="row">
-                    <div class="order-sm-last col-sm-8 order-sm-first col-lg-6">
-                        <img class="imageTexte__col--img" src="img/backpack.jpg" href="sac à dos">
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/genieRH.jpg" class="card-img-top" alt="genieRH">
+                            <div class="card-body">
+                                <a href="https://genierh.thinkific.com" target="_blank">genierh.thinkific.com</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-12 order-sm-first col-sm-8 order-lg-last col-lg-6 imageTexte__col">
-                        <h1>Choses à savoir</h1>
-                        <p>Vous souhaitez profiter du beau temps pour faire des randonnées pédestres ? 
-                            Mais as-tu tout ce qu’il faut dans ton sac à dos ?<br>
-                            En randonnée, tout peut arriver : météo, insectes, ampoule, foulure… 
-                            Comment prévoir le matériel nécessaire sans pour autant surcharger son sac à dos..</p>
-                            <a href="asavoir.html"><button type="button" class="btn">A Savoir</button></a>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/rando.jpg" class="card-img-top" alt="rando">
+                            <div class="card-body">
+                                <a href="https://carolinepoulin.github.io/TravailPratique3CarolinePoulinRando" target="_blank">github/randonnee</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="container imageTexte">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-lg-6 imageTexte__col">
-                        <h1>Hébergement</h1>
-                        <p>Faites votre choix d'hébergement parmi un réseau de sites de camping, de refuges et de chalets.<br>
-                            Planifiez votre séjour pour décrocher en nature.<br>
-                            <br>Vous disposez de tout ce qu'il vous faut pour faire durer le plaisir!</p>
-                        <a href="hebergement.html"><button type="button" class="btn">Hébergement</button></a>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/BurgerShop.jpg" class="card-img-top" alt="BurgerShop">
+                            <div class="card-body">
+                                <a href="https://carolinepoulin.github.io/TP3-Site-Responsive-BurgerShop/" target="_blank">github/burgerShop</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-8 col-lg-6">
-                        <img class="imageTexte__col--img" src="img/camping-tent.jpg" href="tente">
-                    </div>
-                </div>
-            </div>
-
-            <div class="container imageTexte">
-                <div class="row">
-                    <div class="order-sm-last col-sm-8 order-sm-first col-lg-6">
-                        <img class="imageTexte__col--img" src="img/hiking-dog.jpg" href="randonnée avec chien">
-                    </div>
-                    <div class="col-xs-12 order-sm-first col-sm-8 order-lg-last col-lg-6 imageTexte__col">
-                        <h1>Partout avec toutou</h1>
-                        <p>Découvrez de nouveau parc en compagnie de votre ami canin.<br>
-                            Les chiens sont souvent les bienvenus dans beaucoup de sentier.
-                            <br>Votre fidèle compagnon peut randonner, camper, dormir en refuge et même souvent faire une balade en canot ou encore en ponton!</p>
-                            <a href="endroits.html#toutou"><button type="button" class="btn">Avec toutou</button></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container imageTexte">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-8 col-lg-6 imageTexte__col">
-                        <h1>Nourriture en randonnée</h1>
-                        <p>En randonnée, la nutrition peut jouer un grand rôle dans la réussite ou l'échec de la journée. Alimenté avec du mauvais carburant, le randonneur risque la panne sèche avant d'avoir atteint son objectif. Il doit donc faire attention à ce qu'il mange - et boit! - avant, pendant et après la randonnée.</p>
-                            <a href="asavoir.html#nourriture"><button type="button" class="btn">Nourriture</button></a>
-                    </div>
-                    <div class="col-sm-8 col-lg-6">
-                        <img class="imageTexte__col--img" src="img/encas.jpg" href="nourriture">
-                    </div>
-                </div>
-            </div>
-
-            <div class="container imageTexte">
-                <div class="row">
-                    <div class="order-sm-last col-sm-8 order-sm-first col-lg-6">
-                        <img class="imageTexte__col--img" src="img/applications0.jpg" href="applications">
-                    </div>
-                    <div class="col-xs-12 order-sm-first col-sm-8 order-lg-last col-lg-6 imageTexte__col">
-                        <h1>Applications utiles</h1>
-                        <p>Pourquoi une application en randonnée ?<br>
-                            Cela permet de se repérer facilement, mais également d'appréhender la difficulté de la randonnée, avec des indications sur les distances et les dénivelés. Certaines applications permettent également de repérer sa position en temps réel, grâce à une localisation faite par GPS.</p>
-                            <a href="hebergement.html#application"><button type="button" class="btn">Applications</button></a>
+                    <div class="col-4">
+                        <div class="card" style="width: 18rem;">
+                            <img src="img/Maverick TopGun.jpg" class="card-img-top" alt="MaverickTopGun">
+                            <div class="card-body">
+                                <a href="https://carolinepoulin.github.io/TP2_PoulinCaroline-TopGunMaverick/" target="_blank">github/topGunMaverick</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="apropos">
+            <div class="container apropos">
+                <div class="row">
+                    <h1>A propos de moi</h1>
+                    <div class="col-12">
+                        <p> Je me nomme Caroline Poulin, professionnelle Jr en développement front-end.
+                            Détenant officiellement une Attestion d'études Collégiale dans ce domaine, j'offre mes services auprès d'entreprise qui me 
+                            permettra d'évoluer au sein de leur équipe de programmeurs TI.  Je considère que cette profession est un nouveau défi palpitant. 
+                            <br><br>
+                            Mes expériences antérieures proviennent de plusieurs années en tant que responsable des finances, ce qui m'a
+                            permis d'acquérir de très bonnes compétences dont la rigueur, l'organisation et un bon esprit d'analyse.
+                            J'ai profité de certains changements dans ma vie pour effectuer une reconversion professionnelle
+                            dans le Développement Web, domaine qui m'intéresse depuis toujours.
+                            <br><br>
+                            Grâce à cet intérêt, je me suis dotée d'une formation à distance auprès du Cégep de Trois-Rivières en Développement Web (Front-End) 
+                            sur une durée de 5 sessions (3 ans).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences">
+            <div class="container competences">
+                <div class="row space">
+                    <h1>Compétences</h1>
+                    <div class="col-6">
+                        <div class="container">
+                            <p class="competences-titre">BACK-END</p>
+                            <div class="container">
+                                <p class="competences-soustitre">PHP</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <p class="competences-soustitre">SQL</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="competences-titre">FRONT-END</p>
+                            <div class="container">
+                                <p class="competences-soustitre">HTML</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><div class="container">
+                                <p class="competences-soustitre">CSS</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><div class="container">
+                                <p class="competences-soustitre">JAVASCRIPT/JQUERY</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="competences-titre">CMS</p>
+                            <div class="container">
+                                <p class="competences-soustitre">WORDPRESS</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container">
+                            <p class="competences-titre">DIVERS</p>
+                            <div class="container">
+                                <p class="competences-soustitre">WINDOWS</p>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-label="Success striped example" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="col-6">
+                        <div class="column-wrap element-populated">
+                            <div class="widget-wrap">
+                                <div class="element element-37694dd widget widget-image" data-id="37694dd" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="widget-container">
+                                        <div class="image">
+                                            <img src="https://julien-dahy.com/wp-content/uploads/elementor/thumbs/cv-julien_dahy-1-ov85acw1h6zsfbd2oa7viea2gu8fou27enhxdk3wn4.jpg" title="cv-julien_dahy" alt="cv julien dahy">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="element element-de88fd7 widget widget-shortcode" data-id="de88fd7" data-element_type="widget" data-widget_type="shortcode.default">
+                                    <div class="widget-container">
+                                        <div class="shortcode">
+                                            <a href="https://julien-dahy.com/wp-content/uploads/2020/09/cv-julien_dahy.pdf" target="_self" class="emd_dl_red_darker" download="">Télécharger CV</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="imageFond last">
+            <div class="container contact">
+                <div class="row">
+                    <h1>Contactez-moi</h1>
+                    <div class="col-12">
+                        <p class="contact-title">N'hésitez pas à me contacter, je vous répondrai dans les plus brefs délais.</p>
+                        <section>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <label class="label"> Nom *<br>
+                                                        <input class="label6" type="text" name="your-surname" value="">
+                                                    </label>
+                                                </div>
+                                                <div class="col-6">
+                                                    <label class="label"> Prénom<br>
+                                                        <input class="label6" type="text" name="your-name" value="">
+                                                    </label>
+                                                </div>
+                                                <div class="col-6">
+                                                    <label class="label"> E-Mail *<br>
+                                                        <input class="label6" type="email" name="your-email" value="">
+                                                    </label>
+                                                </div>
+                                                <div class="col-6">
+                                                    <label class="label"> Téléphone<br>
+                                                        <input class="label6" type="tel" name="your-num" value="">
+                                                    </label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="label"> Objet *<br>
+                                                        <input class="label12" type="text" name="your-subject" value="">
+                                                    </label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <label class="label"> Message *<br>
+                                                        <textarea class="label12" name="your-message" cols="100" rows="5"></textarea>
+                                                    </label>
+                                                </div>
+                                                <div class="label"><small>* Champ obligatoire</small></div>
+                                                <div>
+                                                    <label>
+                                                        <input type="checkbox">
+                                                        <span class="label">En soumettant ce formulaire, j'accepte que mes données personnelles soient utilisées pour me recontacter. Aucun autre traitement ne sera effectué avec mes informations.</span>
+                                                    </label>
+                                                </div>
+                                                <div class="label">
+                                                    <input type="submit" value="Envoyer" class="" disabled="">
+                                                    <span class=""></span>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-4">
+                                        <div>
+                                            <ul class="icon-list-items">
+                                                    <li class="icon-list-item">
+                                                        <a href="mailto:carolinejob123@hotmail.com" class="track_mail">
+                                                            <span class="icon-list-icon">
+                                                                <img src="img/courriel.png">				
+                                                            </span>
+                                                            <span class="icon-list-text">carolinejob123@hotmail.com</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="icon-list-item">
+                                                        <a href="tel:4187742033" class="track_tel">						
+                                                            <span class="icon-list-icon">
+                                                                <img src="img/tel.png">
+                                                            </span>
+                                                            <span class="icon-list-text">418-774-2033</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="icon-list-item">
+                                                        <a href="https://goo.gl/maps/CR9XBn7tTGpKT9Ku9" target="_blank">						
+                                                            <span class="icon-list-icon">
+                                                                <img src="img/home.png">					
+                                                            </span>
+                                                            <span class="icon-list-text">Beauceville, QC</span>
+                                                        </a>
+                                                    </li>
+                                            </ul>
+                                            <div class="item-social">
+                                                <a class="icon-social-icon" href="https://www.linkedin.com" target="_blank">
+                                                    <span></span>
+                                                    <img src="img/linkedin.png">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>

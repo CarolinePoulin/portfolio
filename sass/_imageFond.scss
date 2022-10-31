@@ -1,0 +1,18 @@
+@use 'variables';
+
+.imageFond {
+    background-image: url(../img/world-wide-web.jpg);
+    background-size: contain;
+
+    h1 {
+        color: variables.$colorblanc;
+    }
+}
+
+.first {
+    height: 40vw;
+}
+
+.last {
+    height: 66vw;
+}

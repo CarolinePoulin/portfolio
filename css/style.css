@@ -32,6 +32,10 @@ h2, h3, h4, h5, h6 {
   padding-top: 100px;
 }
 
+p {
+  padding-top: 1rem;
+}
+
 header {
   position: fixed;
   z-index: 9999;
@@ -44,6 +48,7 @@ header {
 
 a.nav-link {
   color: #0d6dfc;
+  font-size: 1.5rem;
 }
 
 .footer {
@@ -113,5 +118,79 @@ a.nav-link {
   position: absolute;
   width: 1px;
   word-wrap: normal !important;
+}
+
+.imageFond {
+  background-image: url(../img/world-wide-web.jpg);
+  background-size: contain;
+}
+.imageFond h1 {
+  color: #ffffff;
+}
+
+.first {
+  height: 40vw;
+}
+
+.last {
+  height: 66vw;
+}
+
+.competences-titre {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.space {
+  margin-bottom: 50px;
+}
+
+.contact-title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.label {
+  color: #ffffff;
+  padding: 5px;
+  margin: 5px;
+}
+
+.label6 {
+  width: 24vw;
+}
+
+.label12 {
+  width: 51vw;
+}
+
+.icon-list-text {
+  color: #cdcdcd;
+}
+
+a {
+  text-decoration: none;
+}
+
+li.icon-list-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.icon-list-icon img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.icon-list-items {
+  margin-top: 35px;
+}
+
+.icon-social-icon img {
+  width: 50px;
+}
+
+.item-social {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,50 @@
+@use './variables';
+
+.contact-title {
+    color: variables.$colorblanc;
+    text-align: center;
+}
+
+.label {
+    color: variables.$colorblanc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.label6 {
+    width: 24vw;
+}
+
+.label12 {
+    width: 51vw;
+}
+
+.icon-list-text {
+    color: variables.$colorgrispale;
+}
+
+a {
+    text-decoration: none;
+}
+
+li.icon-list-item {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.icon-list-icon img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.icon-list-items {
+    margin-top: 35px;
+}
+
+.icon-social-icon img {
+    width: 50px;
+}
+
+.item-social {
+    text-align: center;
+}
