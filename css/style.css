@@ -54,56 +54,12 @@ a.nav-link {
 .footer {
   background-color: #cdcdcd;
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   margin-top: 0.5rem;
 }
-.footer .footer__logo {
-  display: flex;
-  justify-content: center;
-}
-.footer .footer__social {
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-top: 1.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .footer .footer__social p {
-  margin: 1.5rem 0;
+  text-align: center;
   color: #0d6dfc;
-}
-.footer .footer__social .footer__icons {
-  font-size: 1.5rem;
-}
-.footer .footer__social .footer__icons .footer__icon {
-  margin: 0 0.3rem;
-}
-.footer .footer__social .footer__icons .footer__icon:hover, .footer .footer__social .footer__icons .footer__icon:focus {
-  color: #646464;
-}
-.footer .footer__social .footer__contact {
-  display: flex;
-}
-.footer .footer__social .footer__contact .footer__link {
-  margin: 0;
-}
-.footer .footer__social .footer__contact a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-.footer .footer__social .footer__contact a:hover, .footer .footer__social .footer__contact a:focus {
-  color: #646464;
-}
-.footer .footer__social .footer__contact a span {
-  text-decoration: underline;
-}
-.footer .footer__social .footer__contact a:first-child {
-  margin-right: 1rem;
-}
-.footer .footer__social .footer__contact i {
-  font-size: 1.5rem;
-  margin-right: 0.3rem;
 }
 
 .screen-reader-text {
@@ -192,5 +148,9 @@ li.icon-list-item {
 
 .item-social {
   text-align: center;
+}
+
+.icon-social-icon {
+  margin: 0 10px;
 }
 /*# sourceMappingURL=style.css.map */
