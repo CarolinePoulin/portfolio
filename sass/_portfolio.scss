@@ -1,0 +1,13 @@
+@use 'variables';
+@use 'mixins';
+
+
+div.card {
+    width: 18rem;
+}
+
+@include mixins.respond-to('lg') {
+    div.card {
+        width: 16rem;
+    }
+}

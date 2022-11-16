@@ -11,7 +11,7 @@
     <a class="screen-reader-text" href="#content">Aller au contenu principal</a>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand navbar-light bg-light">
             <div class="container-fluid navbar--div">
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
@@ -37,48 +37,48 @@
             <div class="container portfolio">
                 <div class="row">
                     <h1>Portfolio</h1>
-                    <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
                             <img src="img/themelisRHSolutions.jpg" class="card-img-top" alt="themelisRHSolutions">
                             <div class="card-body">
                                 <a href="https://www.themelisRHsolutions.com" target="_blank">www.themelisRHsolutions.com</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
                             <img src="img/eclairDeGenie.jpg" class="card-img-top" alt="eclairDeGenie">
                             <div class="card-body">
                                 <a href="https://www.eclairdegenie.ca" target="_blank">www.eclairdegenie.ca</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
                             <img src="img/genieRH.jpg" class="card-img-top" alt="genieRH">
                             <div class="card-body">
                                 <a href="https://genierh.thinkific.com" target="_blank">genierh.thinkific.com</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
                             <img src="img/rando.jpg" class="card-img-top" alt="rando">
                             <div class="card-body">
                                 <a href="https://carolinepoulin.github.io/TravailPratique3CarolinePoulinRando" target="_blank">github/randonnee</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
                             <img src="img/BurgerShop.jpg" class="card-img-top" alt="BurgerShop">
                             <div class="card-body">
                                 <a href="https://carolinepoulin.github.io/TP3-Site-Responsive-BurgerShop/" target="_blank">github/burgerShop</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
                             <img src="img/Maverick TopGun.jpg" class="card-img-top" alt="MaverickTopGun">
                             <div class="card-body">
                                 <a href="https://carolinepoulin.github.io/TP2_PoulinCaroline-TopGunMaverick/" target="_blank">github/topGunMaverick</a>
@@ -207,43 +207,43 @@
                         <section>
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-8">
-                                        <form method="post" action="">
+                                    <div class="col-md-8 col-sm-12">
+                                        <form method="post" action="confirmation.html">
                                             <div class="row">
                                                 <div class="col-6">
                                                     <label class="label"> Nom *<br>
-                                                        <input class="label6" type="text" name="your-surname" value="">
+                                                        <input class="label6" type="text" name="your-surname" value="" required>
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <label class="label"> Prénom<br>
-                                                        <input class="label6" type="text" name="your-name" value="">
+                                                    <label class="label"> Prénom *<br>
+                                                        <input class="label6" type="text" name="your-name" value="" required>
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
                                                     <label class="label"> E-Mail *<br>
-                                                        <input class="label6" type="email" name="your-email" value="">
+                                                        <input class="label6" type="email" name="your-email" value="" required>
                                                     </label>
                                                 </div>
                                                 <div class="col-6">
-                                                    <label class="label"> Téléphone<br>
-                                                        <input class="label6" type="tel" name="your-num" value="">
+                                                    <label class="label"> Téléphone *<br>
+                                                        <input class="label6" type="tel" name="your-num" value="" required>
                                                     </label>
                                                 </div>
                                                 <div class="col-12">
                                                     <label class="label"> Objet *<br>
-                                                        <input class="label12" type="text" name="your-subject" value="">
+                                                        <input class="label12" type="text" name="your-subject" value="" required>
                                                     </label>
                                                 </div>
                                                 <div class="col-12">
                                                     <label class="label"> Message *<br>
-                                                        <textarea class="label12" name="your-message" cols="100" rows="5"></textarea>
+                                                        <textarea class="label12" name="your-message" cols="100" rows="5" required></textarea>
                                                     </label>
                                                 </div>
                                                 <div class="label"><small>* Champ obligatoire</small></div>
                                                 <div>
                                                     <label>
-                                                        <input type="checkbox">
+                                                        <input type="checkbox" required>
                                                         <span class="label">En soumettant ce formulaire, j'accepte que mes données personnelles soient utilisées pour me recontacter. Aucun autre traitement ne sera effectué avec mes informations.</span>
                                                     </label>
                                                 </div>
@@ -254,7 +254,7 @@
                                             </div>
                                         </form>
                                     </div>
-                                    <div class="col-4">
+                                    <div class="col-md-4 col-sm-12">
                                         <div>
                                             <ul class="icon-list-items">
                                                     <li class="icon-list-item">
@@ -262,7 +262,7 @@
                                                             <span class="icon-list-icon">
                                                                 <img src="img/courriel.png">				
                                                             </span>
-                                                            <span class="icon-list-text">carolinejob123@hotmail.com</span>
+                                                            <span class="icon-list-text">caropoulin123@hotmail.com</span>
                                                         </a>
                                                     </li>
                                                     <li class="icon-list-item">

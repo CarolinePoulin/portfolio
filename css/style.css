@@ -78,7 +78,7 @@ a.nav-link {
 
 .imageFond {
   background-image: url(../img/world-wide-web.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 .imageFond h1 {
   color: #ffffff;
@@ -88,10 +88,11 @@ a.nav-link {
   height: 40vw;
 }
 
-.last {
-  height: 66vw;
+@media (max-width: 768px) {
+  .imageFond h1 {
+    font-size: 2rem;
+  }
 }
-
 .competences-titre {
   text-align: center;
   padding-top: 2rem;
@@ -148,9 +149,24 @@ li.icon-list-item {
 
 .item-social {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+input#btn {
+  margin-bottom: 20px;
 }
 
 .icon-social-icon {
   margin: 0 10px;
+}
+
+div.card {
+  width: 18rem;
+}
+
+@media (max-width: 992px) {
+  div.card {
+    width: 16rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

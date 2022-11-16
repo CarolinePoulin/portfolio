@@ -1,8 +1,9 @@
 @use 'variables';
+@use 'mixins';
 
 .imageFond {
     background-image: url(../img/world-wide-web.jpg);
-    background-size: contain;
+    background-size: cover;
 
     h1 {
         color: variables.$colorblanc;
@@ -13,6 +14,10 @@
     height: 40vw;
 }
 
-.last {
-    height: 66vw;
+@include mixins.respond-to('md') {
+    .imageFond {
+        h1 {
+            font-size: 2rem;
+        }
+    }
 }

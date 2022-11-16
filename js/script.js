@@ -1,8 +1,8 @@
-function test() {
-    alert("Le formulaire a été soumis avec succès!");
-}
+// function soumettre() {
+//    alert("Le formulaire a été soumis avec succès!");
+//}
 
-let btn = document.getElementById("btn");
-btn.addEventListener('click', event => {
-    test();
-});
+//let btn = document.getElementById("btn");
+//btn.addEventListener('click', event => {
+//    soumettre();
+//});
